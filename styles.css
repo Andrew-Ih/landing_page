@@ -4,7 +4,6 @@ body {
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-    height: 100vh;
     margin: 0;
 }
 
@@ -13,16 +12,97 @@ body .divOne {
     background: #1F2937;
     height: 250px;
     width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 600px;
+    padding: 0px 60px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.links a {
+    color: #E5E7EB;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header2 {
+    display: flex;
+    width: 600px;
+    padding: 0px 60px;
+    gap: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.t1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.t2 {
+    color: rgb(165, 162, 162);
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.signup {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;;
+    background-color: #3882F6;
+    margin-right: 50px;
+    text-align: center;
+    padding: 2px 20px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+    border: 1px solid #3882F6;
+}
+
+.img-holder {
+    color: #F9FAF8;
+    background-color: rgb(103, 101, 101); 
+    display: flex;
+    width: 300px;
+    font-size: 13px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /* div Two objects */
 .divTwo {
     background: white;
-    height: 25%;
+    height: 250px;
     width: 700px;
     display: flex;
-    /* flex: 1; */
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     padding-top: 20px;
 }
@@ -46,7 +126,6 @@ body .divOne {
     width: 100px;
     border: 2px solid #3882F6;
     border-radius: 20%; 
-    /* margin-left: 10px; */
 }
 
 .text {
@@ -62,18 +141,15 @@ body .divOne {
 /* div Three objects */
 .divThree {
     background: #E5E7EB;
-    height: 20%;
+    height: 200px;
     width: 700px;
     display: flex;
-    /* flex:  1; */
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
 }
 
 .quote {
     display: flex;
-    /* flex: 1; */
     font-size: 20px;
     width: 550px;
     font-family: 'light italic';
@@ -95,7 +171,7 @@ body .divOne {
 /* div Four objects */
 .divFour {
     background: white;
-    height: 20%; 
+    height: 200px; 
     width: 700px;
     display: flex;
     align-items: center;
