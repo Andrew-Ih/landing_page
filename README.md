@@ -1,5 +1,5 @@
 # landing_page
-Recreating a webbsite using:
+Recreating a website using:
 - HTML
 - CSS 
 - Flex box
