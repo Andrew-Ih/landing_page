@@ -104,6 +104,14 @@ body .divOne {
     background: #1F2937;
     height: 50px;
     width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer {
+    color: white;
+    font-size: 10px;
 }
 
 
